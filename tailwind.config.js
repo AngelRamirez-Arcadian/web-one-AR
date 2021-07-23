@@ -1,8 +1,16 @@
 module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
-  darkMode: 'media', // or 'media' or 'class'
+  darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        obscuroraxe: '#020215',
+        azulraxe: '#6196e4'
+      },
+      fontFamily: {
+        'sans': ['Open Sans', 'sans-serif']
+      },
+    },
   },
   variants: {
     extend: {},
